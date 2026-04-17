@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Homepage.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -85,14 +86,17 @@ function Homepage() {
             Profilo GitHub
           </a>
         </h3>
-        <h3>Prossimamente aggiungerò i miei progetti più significativi!</h3>
+        <h3>L'aggiunta dei progetti è ancora in lavorazione</h3>
+
+        <Link to="https://f1box-frontend-2.vercel.app/">
+          <img
+            className="f1box"
+            src="/progetto-f1box.png"
+            alt="Progetto F1Box"
+          />
+        </Link>
 
         {/*<div className="card">
-          <h3>Progetto 1</h3>
-          <p>Descrizione progetto</p>
-        </div>
-
-        <div className="card">
           <h3>Progetto 2</h3>
           <p>Descrizione progetto</p>
         </div>*/}

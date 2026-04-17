@@ -117,12 +117,10 @@ section {
   color: white;
 }
 
-.card {
-  background: #1e293b;
-  padding: 20px;
-  margin-top: 20px;
+.f1box {
+  width: 80%;
   border-radius: 10px;
-  transition: 0.3s;
+  margin-left: 10%;
 }
 
 .card:hover {
