@@ -89,11 +89,10 @@ function Homepage() {
         <h3>L'aggiunta dei progetti è ancora in lavorazione</h3>
 
         <Link to="https://f1box-frontend-2.vercel.app/">
-          <img
-            className="f1box"
-            src="/progetto-f1box.png"
-            alt="Progetto F1Box"
-          />
+          <img className="f1box" src="/progetto-f1box.png" />
+        </Link>
+        <Link to="https://progetto-valorizzazione-chiesa-sang.vercel.app/">
+          <img className="f1box" src="/progetto-chiesa.png" />
         </Link>
 
         {/*<div className="card">

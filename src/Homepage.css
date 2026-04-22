@@ -121,6 +121,11 @@ section {
   width: 80%;
   border-radius: 10px;
   margin-left: 10%;
+  margin-bottom: 10px;
+}
+
+.f1box:hover {
+  transform: scale(1.05);
 }
 
 .card:hover {
