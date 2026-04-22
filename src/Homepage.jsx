@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Homepage.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ProjectCard from "./components/ProjectCard";
 
 function Homepage() {
   useEffect(() => {
@@ -21,6 +22,26 @@ function Homepage() {
       document.removeEventListener("mousemove", move);
     };
   }, []);
+
+  const projectsData = [
+    {
+      title: "F1 BOX",
+      link: "https://f1box-frontend-2.vercel.app/",
+      image: "/progetto-f1box.png",
+      tags: ["React ", "Koa ", "MongoDB"],
+    },
+    {
+      title: "CHIESA SAN GIOVANNI BATTISTA",
+      link: "https://progetto-valorizzazione-chiesa-sang.vercel.app/",
+      image: "/progetto-chiesa.png",
+      tags: ["React ", "Three.js"],
+    },
+    {
+      title: "MINI SAAS",
+      image: "/comingsoon.jpg",
+      tags: ["React ", "Koa ", "MongoDB"],
+    },
+  ];
 
   return (
     <div>
@@ -86,19 +107,18 @@ function Homepage() {
             Profilo GitHub
           </a>
         </h3>
-        <h3>L'aggiunta dei progetti è ancora in lavorazione</h3>
 
-        <Link to="https://f1box-frontend-2.vercel.app/">
-          <img className="f1box" src="/progetto-f1box.png" />
-        </Link>
-        <Link to="https://progetto-valorizzazione-chiesa-sang.vercel.app/">
-          <img className="f1box" src="/progetto-chiesa.png" />
-        </Link>
-
-        {/*<div className="card">
-          <h3>Progetto 2</h3>
-          <p>Descrizione progetto</p>
-        </div>*/}
+        <div className="projects-container">
+          {projectsData.map((project) => (
+            <ProjectCard
+              key={project.title}
+              link={project.link}
+              title={project.title}
+              image={project.image}
+              tags={project.tags}
+            />
+          ))}
+        </div>
       </section>
 
       <Footer />
