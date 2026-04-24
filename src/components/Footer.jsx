@@ -38,6 +38,17 @@ function Footer() {
 
           <button type="submit">Invia</button>
         </form>
+
+        <a
+          href="/CV.pdf"
+          download
+          style={{
+            textDecoration: "none",
+            color: "white",
+          }}
+        >
+          <h2>Scarica il mio CV</h2>
+        </a>
       </section>
       <footer>
         <p>© 2026 - Portfolio</p>

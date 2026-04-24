@@ -37,6 +37,18 @@ function Header() {
                 CONTACT
               </a>
             </strong>
+            <strong>
+              <a
+                href="/CV.pdf"
+                download
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                }}
+              >
+                CV
+              </a>
+            </strong>
           </div>
         </nav>
       </header>
