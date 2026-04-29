@@ -37,8 +37,8 @@ function Homepage() {
       tags: ["React ", "Three.js"],
     },
     {
-      title: "MINI SAAS",
-      image: "/comingsoon.jpg",
+      title: "PROJECT HUB",
+      image: "/progetto-projecthub.jpg",
       tags: ["React ", "Koa ", "MongoDB"],
     },
   ];
