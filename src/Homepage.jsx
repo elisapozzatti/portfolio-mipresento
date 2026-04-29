@@ -38,7 +38,8 @@ function Homepage() {
     },
     {
       title: "PROJECT HUB",
-      image: "/progetto-projecthub.jpg",
+      link: "https://projecthub-theta-ten.vercel.app/",
+      image: "/progetto-projecthub.png",
       tags: ["React ", "Koa ", "MongoDB"],
     },
   ];
