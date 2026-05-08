@@ -42,6 +42,12 @@ function Homepage() {
       image: "/progetto-projecthub.png",
       tags: ["React ", "Koa ", "MongoDB"],
     },
+    {
+      title: "APP MUSEI",
+      link: "https://github.com/elisapozzatti/Web-App-Musei",
+      image: "/progetto-musei.svg",
+      tags: ["React ", "Koa ", "MongoDB", "Repository privata"],
+    },
   ];
 
   return (
