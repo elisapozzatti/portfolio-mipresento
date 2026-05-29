@@ -27,25 +27,25 @@ function Homepage() {
     {
       title: "F1 BOX",
       link: "https://f1box-frontend-2.vercel.app/",
-      image: "/progetto-f1box.png",
+      image: "/progetto-f1box.webp",
       tags: ["React ", "Koa ", "MongoDB"],
     },
     {
       title: "CHIESA SAN GIOVANNI BATTISTA",
       link: "https://progetto-valorizzazione-chiesa-sang.vercel.app/",
-      image: "/progetto-chiesa.png",
+      image: "/progetto-chiesa.webp",
       tags: ["React ", "Three.js"],
     },
     {
       title: "PROJECT HUB",
       link: "https://projecthub-theta-ten.vercel.app/",
-      image: "/progetto-projecthub.png",
+      image: "/progetto-projecthub.webp",
       tags: ["React ", "Koa ", "MongoDB"],
     },
     {
       title: "APP MUSEI",
       link: "https://github.com/elisapozzatti/Web-App-Musei",
-      image: "/progetto-musei.png",
+      image: "/progetto-musei.webp",
       tags: ["React ", "Koa ", "MongoDB", "Repository privata"],
     },
   ];
