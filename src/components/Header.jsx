@@ -3,54 +3,25 @@ function Header() {
   const [menu, setMenu] = useState(false);
   return (
     <div>
-      <header>
+      <header
+        style={{
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
         <img src="/fotoCV.JPEG" className="logo" />
         <h1>Elisa Pozzatti</h1>
-        <nav
+        <a
+          href="/CV.pdf"
+          download
           style={{
+            textDecoration: "none",
+            color: "white",
             marginLeft: "auto",
           }}
         >
-          <img
-            src="/menu.png"
-            className="menu"
-            onClick={() => setMenu(!menu)}
-          />
-          <div className={`sidebar ${menu ? "open" : ""}`}>
-            <img
-              src="/close.png"
-              className="close"
-              onClick={() => setMenu(!menu)}
-            />
-            <strong>
-              <a href="#about" onClick={() => setMenu(!menu)}>
-                ABOUT
-              </a>
-            </strong>
-            <strong>
-              <a href="#projects" onClick={() => setMenu(!menu)}>
-                PROJECTS
-              </a>
-            </strong>
-            <strong>
-              <a href="#contact" onClick={() => setMenu(!menu)}>
-                CONTACT
-              </a>
-            </strong>
-            <strong>
-              <a
-                href="/CV.pdf"
-                download
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                }}
-              >
-                CV
-              </a>
-            </strong>
-          </div>
-        </nav>
+          <img src="cv.png" style={{ height: "50px" }} />
+        </a>
       </header>
     </div>
   );
