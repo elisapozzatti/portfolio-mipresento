@@ -54,11 +54,8 @@ function Homepage() {
     <div>
       <Header />
       <section id="hero">
-        <h1>Ciao, sono una sviluppatrice🤗</h1>
-        <h2>
-          Trasformo le idee in esperienze digitali fluide, veloci e al passo con
-          i tempi.
-        </h2>
+        <h1>Ciao, benvenuto!</h1>
+        <h2>Scopri il mio lavoro e la mia esperienza!</h2>
       </section>
 
       <section id="about">
