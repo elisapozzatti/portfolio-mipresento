@@ -25,10 +25,10 @@ function Homepage() {
 
   const projectsData = [
     {
-      title: "F1 BOX",
-      link: "https://f1box-frontend-2.vercel.app/",
+      title: "F1 RACE SIMULATOR",
+      link: "https://github.com/elisapozzatti/F1RaceSimulator",
       image: "/progetto-f1box.webp",
-      tags: ["React ", "Koa ", "MongoDB"],
+      tags: ["C# ", "Unity (in development)"],
     },
     {
       title: "CHIESA SAN GIOVANNI BATTISTA",
