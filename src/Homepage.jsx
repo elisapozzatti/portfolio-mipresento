@@ -63,45 +63,7 @@ function Homepage() {
         <h2 className="sottotitoli">Il mio background</h2>
         <h3>🏫 Diploma in Sistemi Informativi Aziendali.</h3>
         <h3>🎓 Specializzazione come Web Developer (ITS).</h3>
-        <h2 className="sottotitoli">Project Work</h2>
-        <h3>🖼️Frontend per la Digitalizzazione Culturale (Musei):</h3>
-        <p>
-          Ho progettato e sviluppato l'intera interfaccia di una web app per la
-          gestione museale che includeva:
-          <ul>
-            <li>
-              la <strong className="grassetto">lista delle opere</strong> che
-              potevi filtrare per categoria, nome e nome dell'artista
-            </li>
-            <li>
-              una <strong className="grassetto">mappa interattiva</strong> del
-              museo dove si poteva visualizzare la posizione delle opere
-            </li>
-            <li>
-              <strong className="grassetto">
-                percorsi guidati personalizzati
-              </strong>{" "}
-              in base agli interessi dell'utente
-            </li>
-            <li>
-              un sistema di{" "}
-              <strong className="grassetto">scansione QR Code</strong> per
-              accedere immediatamente alle informazioni dettagliate delle opere,
-              inclusa un'audioguida
-            </li>
-          </ul>
-        </p>
-        <h3>
-          💆🏼Backend & Architettura Dati per un Forum sulla Salute Mentale:
-        </h3>
-        <p>
-          Mi sono occupata dello sviluppo del backend utilizzando Express,
-          gestendo la logica complessa che integrava{" "}
-          <strong className="grassetto">forum</strong>,{" "}
-          <strong className="grassetto">chat private</strong> e un sistema di{" "}
-          <strong className="grassetto">prenotazione appuntamenti</strong> con
-          degli psicologi.
-        </p>
+        <h3>🎓 Specializzazione come Game Developer (Corso BcSoft).</h3>
       </section>
 
       <section id="projects">
