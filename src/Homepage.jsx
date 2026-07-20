@@ -27,7 +27,7 @@ function Homepage() {
     {
       title: "F1 RACE SIMULATOR",
       link: "https://github.com/elisapozzatti/F1RaceSimulator",
-      image: "/progetto-f1box.webp",
+      image: "/progetto-f1box.jpg",
       tags: ["C# ", "Unity (in development)"],
     },
     {
