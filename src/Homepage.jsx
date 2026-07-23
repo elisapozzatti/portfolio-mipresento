@@ -31,12 +31,6 @@ function Homepage() {
       tags: ["C# ", "Unity (in development)"],
     },
     {
-      title: "CHIESA SAN GIOVANNI BATTISTA",
-      link: "https://progetto-valorizzazione-chiesa-sang.vercel.app/",
-      image: "/progetto-chiesa.webp",
-      tags: ["React ", "Three.js"],
-    },
-    {
       title: "PROJECT HUB",
       link: "https://projecthub-theta-ten.vercel.app/",
       image: "/progetto-projecthub.webp",
@@ -47,6 +41,18 @@ function Homepage() {
       link: "https://github.com/elisapozzatti/Web-App-Musei",
       image: "/progetto-musei.webp",
       tags: ["React ", "Koa ", "MongoDB", "Repository privata"],
+    },
+    {
+      title: "GAME CORE",
+      link: "https://github.com/elisapozzatti/GameCore",
+      image: "/progetto-gamecore.png",
+      tags: ["React Native ", "Express ", "MongoDB"],
+    },
+    {
+      title: "CHIESA SAN GIOVANNI BATTISTA",
+      link: "https://progetto-valorizzazione-chiesa-sang.vercel.app/",
+      image: "/progetto-chiesa.webp",
+      tags: ["React ", "Three.js"],
     },
   ];
 
