@@ -166,7 +166,7 @@ footer {
     2,
     1fr
   ); /* 12 colonne per massima flessibilità */
-  grid-auto-rows: 200px;
+  grid-auto-rows: 230px;
   gap: 20px;
   padding: 40px;
   background-color: #0b0f1a;
