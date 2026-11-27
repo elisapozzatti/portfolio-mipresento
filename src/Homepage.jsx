@@ -43,12 +43,6 @@ function Homepage() {
       tags: ["React ", "Koa ", "MongoDB", "Repository privata"],
     },
     {
-      title: "GAME CORE",
-      link: "https://github.com/elisapozzatti/GameCore",
-      image: "/progetto-gamecore.png",
-      tags: ["React Native ", "Express ", "MongoDB"],
-    },
-    {
       title: "CHIESA SAN GIOVANNI BATTISTA",
       link: "https://progetto-valorizzazione-chiesa-sang.vercel.app/",
       image: "/progetto-chiesa.webp",
@@ -70,6 +64,7 @@ function Homepage() {
         <h3>🏫 Diploma in Sistemi Informativi Aziendali.</h3>
         <h3>🎓 Specializzazione come Web Developer (ITS).</h3>
         <h3>🎓 Specializzazione come Game Developer (Corso BcSoft).</h3>
+        <h3>💼 Attualmente lavoro in Seac S.P.A. a Trento come analista, sviluppatrice e tester.</h3>
       </section>
 
       <section id="projects">
